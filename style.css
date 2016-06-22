@@ -8,14 +8,33 @@ body{
 	width: 80%;
 	max-width: 1000px;
 	margin: auto;
+	padding-top: 60px;
 	background-color: white;
 }
-h1{
-	text-align: center;
+header{
+	background-color: navy;
+	overflow: auto;
+	position: fixed;
+	width: 100%;
+}
+header h1{
+	float: left;
 	margin: 0;
 	padding: .5em;
-	background-color: navy;
 	color: white;
+}
+header nav ul{
+	list-style-type: none;
+}
+header nav ul li{
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+header a{
+	color: white;
+	text-decoration: none;
+	font-size: 1.4em;
 }
 .project-contain{
 	padding: 10px;
@@ -27,6 +46,16 @@ img{
 	width: 60%;
 	margin-left: 20%;
 }
-ul{
+main ul{
 	list-style-type: none;
+}
+footer{
+	text-align: right;
+	padding: 5px;
+}
+a.anchor{
+	display: block;
+	position: relative;
+	visibility: hidden;
+	top: -70px;
 }
