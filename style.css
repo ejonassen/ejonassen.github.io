@@ -1,7 +1,10 @@
 body{
 	
 }
-
+.wrapper{
+	width: 80%;
+	margin: auto;
+}
 h1{
 	text-align: center;
 }
@@ -9,8 +12,8 @@ h4{
 	font-weight: bold;
 }
 img{
-	width: 50%;
-	margin-left: 25%;
+	width: 80%;
+	margin-left: 10%;
 }
 ul{
 	list-style-type: none;
