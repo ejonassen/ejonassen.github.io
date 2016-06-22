@@ -9,7 +9,6 @@ h4{
 	font-weight: bold;
 }
 img{
-	display: inline-block;
-	width: 40%;
-	margin: auto;
+	width: 50%;
+	margin-left: 25%;
 }
