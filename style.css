@@ -62,3 +62,8 @@ a.anchor{
 	visibility: hidden;
 	top: -70px;
 }
+
+
+@media screen and (max-width: 620px){
+	.wrapper{background-color: red;}
+}
