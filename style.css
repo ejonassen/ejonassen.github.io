@@ -2,7 +2,13 @@ body{
 	
 }
 
+h1{
+	text-align: center;
+}
+h4{
+	font-weight: bold;
+}
 img{
-	width: 70%;
-	margin: auto;
+	width: 60%;
+	margin-left: 20%;
 }
