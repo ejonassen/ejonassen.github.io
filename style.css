@@ -46,11 +46,11 @@ h4{
 }
 .imgcontain{
 	overflow: auto;
-	background-color: darkgray;
+	background-color: black;
 }
 .imgcontain img{
-	width: 45%;
-	margin: 2.5%;
+	width: 46%;
+	margin: 2%;
 	float: left;
 }
 main ul{
