@@ -45,9 +45,12 @@ header h1 a{
 h4{
 	font-weight: bold;
 }
-img{
-	width: 60%;
-	margin-left: 20%;
+.imgcontain{
+	overflow: auto;
+}
+.imgcontain img{
+	width: 50%;
+	float: left;
 }
 main ul{
 	list-style-type: none;
