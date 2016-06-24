@@ -22,15 +22,15 @@ header h1{
 	padding: .5em;
 	color: white;
 }
-header nav ul{
+.navbar ul{
 	list-style-type: none;
 }
-header nav ul li{
+.navbar ul li{
 	float: right;
 	margin-right: 20px;
 	margin-top: 10px;
 }
-header nav a{
+.navbar a{
 	color: white;
 	text-decoration: none;
 	font-size: 1.4em;
@@ -65,5 +65,5 @@ a.anchor{
 
 
 @media screen and (max-width: 620px){
-	.wrapper{background-color: red;}
+	.navbar{float: left;}
 }
