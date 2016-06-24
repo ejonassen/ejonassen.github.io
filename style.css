@@ -49,7 +49,8 @@ h4{
 	overflow: auto;
 }
 .imgcontain img{
-	width: 50%;
+	width: 45%;
+	margin: 5%;
 	float: left;
 }
 main ul{
@@ -69,4 +70,5 @@ a.anchor{
 
 @media screen and (max-width: 620px){
 	.navbar{float: left;}
+	.imgcontain img{width: 100%;}
 }
