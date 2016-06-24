@@ -40,13 +40,13 @@ header h1 a{
 	color: white;
 }
 .project-contain{
-	padding: 10px;
 }
 h4{
 	font-weight: bold;
 }
 .imgcontain{
 	overflow: auto;
+	background-color: darkgray;
 }
 .imgcontain img{
 	width: 45%;
