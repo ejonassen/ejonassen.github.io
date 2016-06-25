@@ -10,6 +10,9 @@ body{
 	padding-top: 60px;
 	background-color: white;
 }
+.block{
+	padding: 10px;
+}
 header{
 	background-color: navy;
 	overflow: auto;
@@ -70,5 +73,5 @@ a.anchor{
 
 @media screen and (max-width: 620px){
 	.navbar{float: left;}
-	.imgcontain img{width: 100%;}
+	.imgcontain img{width: 95%; margin: 2.5%;}
 }
