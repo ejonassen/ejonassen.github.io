@@ -69,9 +69,26 @@ a.anchor{
 	visibility: hidden;
 	top: -70px;
 }
-
+.topbutton{
+	position: fixed;
+	bottom: 25px;
+	right: 25px;
+	width: 50px;
+	height: 50px;
+	background-color: navy;
+	border-radius: 25px;
+	display: none;
+	text-align: center;
+}
+.topbutton span{
+	position: relative;
+	top: 15px;
+	color: white;
+}
 
 @media screen and (max-width: 620px){
-	.navbar{float: left;}
+	header h1{font-size: 1.4em;}
+	.navbar{display: none;}
 	.imgcontain img{width: 95%; margin: 2.5%;}
+	.topbutton{display: block;}
 }
