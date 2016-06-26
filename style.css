@@ -1,8 +1,21 @@
 body{
 	margin:0;
 	padding: 0;
-	font-family: tahoma, sans-serif;
+	font-family: 'Oswald', sans-serif;
 	background-color: lightgray;
+}
+h1{
+	font-size: 45px;
+}
+h2{
+	font-size: 35px;
+}
+h3{
+	font-size: 30px;
+}
+h4{
+	font-size: 25px;
+	font-weight: 400;
 }
 .wrapper{
 	max-width: 1400px;
@@ -11,42 +24,52 @@ body{
 	background-color: white;
 }
 .block{
-	padding: 10px;
+	margin: 0 auto;
+	padding: 0;
+	max-width: 1000px;
 }
+/*HEADER & NAV STYLES*/
 header{
-	background-color: navy;
-	overflow: auto;
+	background-color: white;
 	position: fixed;
 	width: 100%;
-}
-header h1{
-	float: left;
-	margin: 0;
-	padding: .5em;
-	color: white;
+	border-bottom: 1px solid black
 }
 .navbar ul{
 	list-style-type: none;
+	text-align: center;
 }
 .navbar ul li{
-	float: right;
-	margin-right: 20px;
-	margin-top: 10px;
+	display: inline-block;
+	margin: 0px 20px 0px 20px;
 }
 .navbar a{
-	color: white;
+	color: black;
 	text-decoration: none;
 	font-size: 1.4em;
 }
-header h1 a{
-	text-decoration: none;
+/*TITLE STYLES*/
+.titleblock{
+	background-color: #A41034;
+	height: 250px;
 	color: white;
 }
-.project-contain{
+.titleblock h1{
+	text-decoration: none;
+	text-align: center;
+	margin: 0 auto;
+	padding: 50px 0 15px 0;
+	width: 25%;
+	border-bottom: 2px solid white;
 }
-h4{
-	font-weight: bold;
+.titleblock h3{
+	margin: 0;
+	padding: 15px 0 0 0;
+	text-align: center;
+	font-weight: 400;
 }
+
+
 .imgcontain{
 	overflow: auto;
 	background-color: black;
@@ -56,7 +79,7 @@ h4{
 	margin: 2%;
 	float: left;
 }
-main ul{
+.wrapper ul{
 	list-style-type: none;
 }
 footer{
