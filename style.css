@@ -85,7 +85,7 @@ header{
 /*TEXT STYLES*/
 p{
 	text-align: justify;
-	padding-left: 15px;
+	padding: 0 15px 0 15px;
 }
 p .emphasis{
 	font-weight: bold;
