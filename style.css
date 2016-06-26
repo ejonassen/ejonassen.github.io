@@ -34,7 +34,7 @@ h4{
 }
 .block{
 	margin: 10px auto;
-	padding: 0 10px;
+	padding: 0 10px 10px 10px;
 	max-width: 1000px;
 	border-left: 1px solid gray;
 }
@@ -48,7 +48,9 @@ header{
 }
 .navbar ul{
 	list-style-type: none;
+	padding: 0;
 	text-align: center;
+	overflow: auto;
 }
 .navbar ul li{
 	display: inline-block;
@@ -93,11 +95,11 @@ p .emphasis{
 /*IMAGE STYLES*/
 .imgcontain{
 	overflow: auto;
-	background-color: black;
+	background-color: white;
 }
 .imgcontain img{
-	width: 46%;
-	margin: 2%;
+	width: 48%;
+	margin: 1%;
 	float: left;
 }
 .wrapper ul{
@@ -118,8 +120,32 @@ a.anchor{
 }
 
 /*MEDIA QUERIES*/
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1030px){
+	.block{
+		border-left: 0;
+		margin: 10px 0 20px 0;
+		box-shadow: 0 0 10px #A41034;
+	}
+	.block:nth-child(1){
+		margin-top: 0;
+	}
+}
+@media screen and (max-width: 500px){
+	.navbar{
+		font-size: .7em;
+	}
+	.navbar ul li{
+		margin: 0 5px;
+		float: left;
+	}
+	.titleblock{
+		height: 210px;
+	}
 	.titleblock h1{
-		
+		width: 200px;
+		font-size: 30px;
+	}
+	.titleblock h3{
+		font-size: 25px;
 	}
 }
