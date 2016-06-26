@@ -92,6 +92,10 @@ p .emphasis{
 }
 .sidenote{
 	text-align: right;
+	font-weight: 300;
+}
+.light{
+	font-weight: 300;
 }
 
 /*IMAGE STYLES*/
