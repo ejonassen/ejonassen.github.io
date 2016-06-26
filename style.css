@@ -17,6 +17,15 @@ h4{
 	font-size: 25px;
 	font-weight: 400;
 }
+.wrapper a{
+	color:  #A41034;
+	text-decoration: none;
+	transition: .3s;
+	border-bottom: 2px solid crimson;
+}
+.wrapper a:hover{
+	color: navy;
+}
 .wrapper{
 	max-width: 1400px;
 	margin: auto;
@@ -24,9 +33,10 @@ h4{
 	background-color: white;
 }
 .block{
-	margin: 0 auto;
+	margin: 10px auto;
 	padding: 0 10px;
 	max-width: 1000px;
+	border-left: 1px solid gray;
 }
 /*HEADER & NAV STYLES*/
 header{
@@ -69,8 +79,18 @@ header{
 	text-align: center;
 	font-weight: 400;
 }
-
-
+/*TEXT STYLES*/
+p{
+	text-align: justify;
+	padding-left: 15px;
+}
+p .emphasis{
+	font-weight: bold;
+}
+.sidenote{
+	text-align: right;
+}
+/*IMAGE STYLES*/
 .imgcontain{
 	overflow: auto;
 	background-color: black;
@@ -84,7 +104,7 @@ header{
 	list-style-type: none;
 }
 footer{
-	text-align: right;
+	text-align: center;
 	padding: 5px;
 }
 a.anchor{
@@ -92,22 +112,9 @@ a.anchor{
 	position: relative;
 	visibility: hidden;
 	top: -70px;
-}
-.topbutton{
-	position: fixed;
-	bottom: 25px;
-	right: 25px;
-	width: 50px;
-	height: 50px;
-	background-color: navy;
-	border-radius: 25px;
-	display: none;
-	text-align: center;
-}
-.topbutton span{
-	position: relative;
-	top: 15px;
-	color: white;
+	height: 0;
+	padding: 0;
+	margin: 0;
 }
 
 /*MEDIA QUERIES*/
