@@ -72,11 +72,24 @@ header{
 	height: 250px;
 	color: white;
 }
+.titleblock a{
+	display: inline;
+	position: relative;
+	top: 5px;
+	left: 10px;
+	text-decoration: none;
+	border: 0;
+	color: white;
+	font-weight: 300;
+}
+.titleblock a:hover{
+	left: 8px;
+}
 .titleblock h1{
 	text-decoration: none;
 	text-align: center;
 	margin: 0 auto;
-	padding: 50px 0 15px 0;
+	padding: 25px 0 15px 0;
 	width: 320px;
 	border-bottom: 2px solid white;
 }
@@ -131,7 +144,6 @@ a.anchor{
 	padding: 0;
 	margin: 0;
 }
-
 /*MEDIA QUERIES*/
 @media screen and (max-width: 820px){
 	.block{
