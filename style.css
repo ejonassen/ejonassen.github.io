@@ -132,9 +132,9 @@ p .emphasis{
 	list-style-type: none;
 }
 footer{
-	margin: auto;
+	margin: 0;
 	text-align: center;
-	padding: 5px;
+	padding: 4px 0;
 	background-color: #A41034;
 	color: white;
 }
