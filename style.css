@@ -132,8 +132,11 @@ p .emphasis{
 	list-style-type: none;
 }
 footer{
+	margin: auto;
 	text-align: center;
 	padding: 5px;
+	background-color: #A41034;
+	color: white;
 }
 a.anchor{
 	display: block;
