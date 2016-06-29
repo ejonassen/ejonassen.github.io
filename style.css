@@ -124,8 +124,8 @@ p .emphasis{
 	background-color: white;
 }
 .imgcontain img{
-	width: 48%;
-	margin: 1%;
+	width: 50%;
+	margin: 2% 25%;
 	float: left;
 }
 .wrapper ul{
