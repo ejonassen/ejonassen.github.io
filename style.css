@@ -3,6 +3,7 @@ body{
 	padding: 0;
 	font-family: 'Oswald', sans-serif;
 	background-color: lightgray;
+	line-height: 1.4;
 }
 h1{
 	font-size: 45px;
