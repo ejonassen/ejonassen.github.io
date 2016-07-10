@@ -52,7 +52,7 @@ header{
 	list-style-type: none;
 	padding: 0;
 	text-align: center;
-	overflow: auto;
+	overflow: visible;
 }
 .navbar ul li{
 	display: inline-block;
